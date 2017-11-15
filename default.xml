@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin" fetch=".." />
-  <default revision="master" remote="origin" sync-s="true" sync-j="4" sync-c="true" />
+  <remote  name="jumarko" fetch=".." />
+  <remote  name="empear-analytics" fetch="git@github.com:empear-analytics" />
+  <default revision="master" remote="jumarko" sync-s="true" sync-j="4" sync-c="true" />
+
   <project path="clojure-repl-experiments" name="clojure-repl-experiments.git" />
   <project path="tools.reader" name="tools.reader.git" />
   <project path="luminus-migrations" name="luminus-migrations.git" revision="migrate-destroy-fix" />
+
+  <project remote="empear-analytics" path="codescene-enterprise-pm-jira.git" name="codescene-enterprise-pm-jira" revision="master" />
 </manifest>
 
