@@ -8,8 +8,7 @@
   <project path="tools.reader" name="tools.reader.git" />
   <project path="luminus-migrations" name="luminus-migrations.git" revision="migrate-destroy-fix" />
 
-  <!-- TODO: this doesn't work
+  <!-- TODO: this doesn't work -->
   <project remote="empear-analytics" path="codescene-enterprise-pm-jira" name="codescene-enterprise-pm-jira.git" />
-  -->
 </manifest>
 
