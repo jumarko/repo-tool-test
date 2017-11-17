@@ -5,6 +5,6 @@
 
   <project path="clojure-repl-experiments" name="clojure-repl-experiments.git" />
   <project path="tools.reader" name="tools.reader.git" />
-  <project path="luminus-migrations" name="luminus-migrations.git" revision="master" />
+  <project path="luminus-migrations" name="luminus-migrations.git" />
 </manifest>
 
